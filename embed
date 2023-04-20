@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html dir=rtl>
+  <head>
+    <style type="text/css">
+      html, body, #mapDiv {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mapDiv"></div>
+      
+    <script nonce="U6fYQfWkT0rbVkMYehJSzQ">
+      function onEmbedLoad() {
+        initEmbed([null,null,null,null,null,[[[2,"spotlight",null,null,null,null,null,[[null,null,null,null,null,null,null,null,null,null,null,[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1]],["0x80c2c75ddc27da13:0xe22fdf6f254608f4","Los Angeles, Kaliforniya, Birleşik Devletler",null,[null,null,34.0522342,-118.2436849],1,1],null,null,null,null,null,null,null,null,11,null,[null,"a",null,null,null,null,null,null,null,null,null,null,null,1,null,null,null,[null,null,null,null,null,0,null,null,1,null,null,null,null,null,null,null,null,null,null,1,1,1],null,null,null,[null,null,null,null,null,2,3,2]],null,null,null,null,null,[12,14,29,37,30,61,70,87]]]]],null,["ur_PK"],[null,null,null,"/maps/api/js/ApplicationService.GetEntityDetails","/maps/embed/upgrade204",null,"/maps/embed/record204"],null,null,null,null,null,null,null,null,"6m1AZNufG_ClkdUPmbi0wAM",null,null,null,[[[24396.45576300488,-118.4117325,34.020479],[0,0,0],null,13.10000038146973],null,0,[["0x80c2c75ddc27da13:0xe22fdf6f254608f4","لاس اینجلس، کیلیفورنیا، ریاستہائے متحدہ",[34.0522342,-118.2436849]],"لاس اینجلس",["کیلیفورنیا","ریاستہائے متحدہ"],null,null,null,null,null,null,null,null,["http://www.lacity.org/","lacity.org",null,null,",AOvVaw1YMMuAu62ariMWxHK87mDD,,0ahUKEwjbvLrpgbf-AhXwUqQEHRkcDTgQ61gICygI,"],null,"کیلیفورنیا، ریاستہائے متحدہ",null,null,null,null,null,[null,null,null,null,null,null,null,1],null,null,null,1,1,null,null,"ChIJE9on3F3HwoAR9AhGJW_fL-I",null,null,"0ahUKEwjbvLrpgbf-AhXwUqQEHRkcDTgQ8BcIAigA","Los Angeles"]],null,null,null,0,null,null,null,null,null,null,[1]]);
+      }
+      function onApiLoad() {
+        var embed = document.createElement('script');
+        embed.src = "https://maps.gstatic.com/maps-api-v3/embed/js/52/9/intl/ur_ALL/init_embed.js";
+        document.body.appendChild(embed);
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?client=google-maps-embed&amp;paint_origin=&amp;libraries=geometry,search&amp;v=3.exp&amp;language=ur_PK&amp;callback=onApiLoad" nonce="U6fYQfWkT0rbVkMYehJSzQ" async defer></script>
+  </body>
+</html>
