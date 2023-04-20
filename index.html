@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -38,8 +37,9 @@
 <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-
-
+<style>
+    #more {display: none;}
+</style>
 </head>
 <body>
  <!-- Preloading -->
@@ -94,10 +94,9 @@
                         <li class="tab">
                             <a class="home-btn" href="#home"><i class="fa fa-home" aria-hidden="true"></i></a>
                         </li>
-                        <li class="tab"><a href="#resume">RESUME</a></li>
                         <li class="tab"><a href="#Skills">SKILLS</a></li>
-                        <li class="tab"><a href="#portfolio">PORTFOLIO</a></li>
-                        <li class="tab"><a href="#blog">BLOG</a></li>
+                        <li class="tab"><a href="#resume">WORK HISTORY</a></li>
+                        <li class="tab"><a href="#portfolio">PROJECTS</a></li>
                         <li class="tab"><a href="#contact">CONTACT</a></li>
                     </ul>
                 </div>
@@ -118,29 +117,28 @@
     ================================================== --> 
     <div class="col-md-12">
         <div id="content" class="panel-container">
-          
             <!-- Home Page
             ================================================== -->  
             <div id="home" class="home">
                 <!-- Text Section -->
                 <div class="row">
                     <section class="about-me line col-md-12 padding_30 padbot_45">
-                    <div class="section-title"><span></span><h2>About Me</h2></div>
-                    <p class="top_30">As a professional software developer with over 4 years of experience in Microsoft .NET technologies, I have gained expertise in various programming languages and frameworks, including C#, VB .NET, ASP .NET MVC, ASP .NET APIs, Web Forms, Win Forms, WPF, MS SQL Server, Crystal Reports, Windows Services, JavaScript, jQuery, and API Integrations. I am also proficient in using Dapper, ADO .NET, and Entity Framework for database connectivity and management.
-                        <br>
-                        Currently, I am working on Angular 15, VUE JS, Micro Service Architecture, Azure DevOps, Blazor, and Flutter. I am constantly learning and exploring new technologies to enhance my skills.
-                        <br>
-                        In addition to my technical expertise, I possess soft skills such as being a self-learner, quick learner, excellent communication skills, and a team player who collaborates well with other team members.
-                        <br>
-                        I have experience working on various projects across multiple domains, including FinTech, Biometric Attendance Systems, Ticket Management Systems, Mini ERP, Access Control, Educational Systems, Job Portals, and more.
-                        <br>
-                        Please let me know if you have any other questions or if you need further clarification.
+                        <div class="section-title"><span></span><h2>About Me</h2></div>
+                        <p class="top_30">As a professional software developer with over 4 years of experience in Microsoft .NET technologies, I have gained expertise in various programming languages and frameworks, including C#, VB .NET, ASP .NET MVC, ASP .NET APIs, Web Forms, Win Forms, WPF, MS SQL Server, Crystal Reports, Windows Services, JavaScript, jQuery, and API Integrations. I am also proficient in using Dapper, ADO .NET, and Entity Framework for database connectivity and management.
+                            <br>
+                            Currently, I am working on Angular 15, VUE JS, Micro Service Architecture, Azure DevOps, Blazor, and Flutter. I am constantly learning and exploring new technologies to enhance my skills.
+                            <br>
+                            In addition to my technical expertise, I possess soft skills such as being a self-learner, quick learner, excellent communication skills, and a team player who collaborates well with other team members.
+                            <br>
+                            I have experience working on various projects across multiple domains, including FinTech, Biometric Attendance Systems, Ticket Management Systems, Mini ERP, Access Control, Educational Systems, Job Portals, and more.
+                            <br>
+                            Please let me know if you have any other questions or if you need further clarification.
                         </p>
-                </section>
+                    </section>
                 </div>
                  <!-- My Services Section -->
                  <div class="row">
-                    <section class="services line  col-md-12 padding_50 padbot_50">
+                    <section class="services line col-md-12 padding_50 padbot_50">
                     <div class="section-title bottom_45"><span></span><h2>Areas of Experties</h2></div>
                     <div class="row">
                         <!-- a service -->
@@ -174,43 +172,24 @@
                             </div>
                         </div>
                     </div>
-                </section>
-                </div>
-                <!-- Skills Section -->
-                <div class="row">
-                    <section class="design-skills graybg col-md-12 padding_60 padbot_50">
-                        <div class="section-title bottom_45"><span></span><h2>Areas of Experties</h2></div>
-                        <ul class="skill-list">
-                            <li> 
-                                <h7><b>Core Skills:</b> C#, ASP.NET MVC, Web APIs, Windows Services, MS SQL Server, 3rd party integrations, TFVC, GIT.</h7>
-                            </li>
-                            <li> 
-                                <h7><b>Programming Languages:</b> C#, Visual Basic .NET and JavaScript and Typescript.</h7>
-                            </li>
-                            <li> 
-                               <h7><b>Frameworks and Libraries:</b> ASP .NET MVC, Restful API, Web Forms, Win Forms, Windows Services, Angular 15.x (TS), HTML5, CSS, SCSS, 
-                                JQuery, Bootstrap, .NET Framework, .NET 5.0, .NET 6.0, .NET 7.0.</h7>
-                            </li>
-                        </ul>
-                        <div class="section-title bottom_45 top_30"><span></span><h2>Soft Skills</h2></div>
-                        <ul class="skill-list">
-                            <li> 
-                                <h7><b>Core Skills:</b> C#, ASP.NET MVC, Web APIs, Windows Services, MS SQL Server, 3rd party integrations, TFVC, GIT.</h7>
-                            </li>
-                            <li> 
-                            
-                            </li>
-                            <li> 
-                                <h3>Adobe Xd</h3>
-                                <div class="progress">
-                                    <div class="percentage" style="width:30%;"></div>
-                                </div>
-                            </li>
-                        </ul>
                     </section>
                 </div>
-               
-                
+                 <!-- Education History -->
+                 <div class="education-history col-md-12 padding_15 padbot_30">
+                    <ul class="timeline col-md-12 top_30">
+                        <li><i class="fa fa-graduation-cap" aria-hidden="true"></i><h2 class="timeline-title">Education History</h2></li>
+                        <!-- a work -->
+                        <li><h3 class="line-title">Masters in Computer Science - Virtual University of Pakistan</h3>
+                            <span>2018 - 2023</span>
+                            <p class="little-text">Completed degree program after overcoming academic challenges.</p>
+                        </li>
+                       <!-- a work -->
+                        <li><h3 class="line-title">Bachelors in Computer Science, Punjab University Lahore Pakistan</h3>
+                            <span>2015 - 2018</span>
+                            <p class="little-text"></p>
+                        </li>
+                    </ul> 
+                </div>
             </div>
             
             <!-- Resume Page
@@ -219,62 +198,102 @@
                 <!-- Resume Section -->
                 <div class="row">
                     <section class="education">
-                    <div class="section-title top_30"><span></span><h2>Resume</h2></div>
+                    <div class="section-title top_30"><span></span><h2>Experiences</h2></div>
                         <div class="row">
                             <!-- Working History -->
                             <div class="working-history col-md-12 padding_15 padbot_30">
                                 <ul class="timeline col-md-12 top_30">
                                     <li><i class="fa fa-suitcase" aria-hidden="true"></i><h2 class="timeline-title">Working History</h2></li>
                                     <!-- a work -->
-                                    <li><h3 class="line-title">Softwar Engineer II - White Wings Consultancy New York</h3>
+                                    <li>
+                                        <h3 class="line-title">Softwar Engineer II - White Wings Consultancy New York</h3>
                                         <span>
                                             May 2022 - Present
                                             <br>
                                             Location: Islamabad, Pakistan
                                         </span>
-                                        <p class="little-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                                        <p class="little-text">
+                                            <p>As a Software Engineer II at White Wings Consulting, my primary responsibilities include enhancing and developing features in existing systems, as well as gathering requirements from clients and partners for new projects and integrations. I integrate 3rd party payment gateways, banks, payers, and remittance systems through REST APIs, Windows Services, and other technologies. Also collaborating with mobile app team for backend support.</p>
+                                            <br>
+                                            <p>In addition to these responsibilities, I am also contributing to the upgrade of our technology stack, including frontend and backend frameworks, to ensure we maintain a competitive edge in the industry. My skills in C#, ASP.NET MVC, ASP.NET Web API, Windows Services, MS SQL Server, and JavaScript enable me to provide custom software solutions tailored to our clients' specific needs.</p>
+                                            <br>
+                                            <p>As a self-motivated individual, I am committed to staying up-to-date with the latest advancements in technology and continuously improving my skills to ensure that I can provide the best possible service to our clients. I am always eager to collaborate with team members and clients to deliver solutions that exceed expectations and drive business success.As a Software Engineer II at White Wings Consulting, my primary responsibilities include enhancing and developing features in existing systems, as well as gathering requirements from clients and partners for new projects and integrations. I integrate 3rd party payment gateways, banks, payers, and remittance systems through REST APIs, Windows Services, and other technologies. Also collaborating with mobile app team for backend support. In addition to these responsibilities, I am also contributing to the upgrade of our technology stack, including frontend and backend frameworks, to ensure we maintain a competitive edge in the industry. My skills in C#, ASP.NET MVC, ASP.NET Web API, Windows Services, MS SQL Server, and JavaScript enable me to provide custom software solutions tailored to our clients' specific needs. As a self-motivated individual, I am committed to staying up-to-date with the latest advancements in technology and continuously improving my skills to ensure that I can provide the best possible service to our clients. I am always eager to collaborate with team members and clients to deliver solutions that exceed expectations and drive business success.</p>
+                                            <br>
+                                            <p><b>Skills:</b> ASP .NET WEB API · Integration · Payment Gateways · Azure DevOps · TFVC · Git · Angular · ASP.NET MVC · .NET Framework · jQuery · JavaScript · MS Sql Server</p>
+                                        </p>
                                     </li>
-                                    <li><h3 class="line-title">Softwar Engineer I - White Wings Consultancy New York</h3>
+                                    <li>
+                                        <h3 class="line-title">Softwar Engineer I - White Wings Consultancy New York</h3>
                                         <span>
-                                            Apr 2021 - May 2022
+                                            April 2021 - May 2022
                                             <br>
                                             Location: Islamabad, Pakistan
                                         </span>
-                                        <p class="little-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                                        <p class="little-text">
+                                            <p>As a Software Engineer I at White Wings Consulting, my primary responsibilities include developing features in existing online portal for money transactions, as well as assisting with gathering requirements from clients. Also collaborate with mobile app team for backend support.</p>
+                                            <br>
+                                            <p>With my skills in C#, ASP.NET MVC, ASP.NET Web API, Windows Services, MS SQL Server, and JavaScript, I provide custom software solutions tailored to our clients' specific needs.</p>
+                                            <br>
+                                            <p>As a motivated individual, I am committed to continuously improving my skills and keeping up-to-date with the latest advancements in technology. I am always eager to work with team members and clients to deliver solutions that drive business success.As a Software Engineer I at White Wings Consulting, my primary responsibilities include developing features in existing online portal for money transactions, as well as assisting with gathering requirements from clients. Also collaborate with mobile app team for backend support. With my skills in C#, ASP.NET MVC, ASP.NET Web API, Windows Services, MS SQL Server, and JavaScript, I provide custom software solutions tailored to our clients' specific needs. As a motivated individual, I am committed to continuously improving my skills and keeping up-to-date with the latest advancements in technology. I am always eager to work with team members and clients to deliver solutions that drive business success.</p>
+                                            <br>
+                                            <p><b>Skills:</b> Project management System · Agile Methodologies · Windows Services · ASP .NET WEB API · C# Programming · .NET Framework · MS Sql Server</p> 
+                                        </p>
                                     </li>
-                                   <!-- a work -->
-                                    <li><h3 class="line-title">Senior Designer - Google</h3>
-                                        <span>2008 - 2010</span>
-                                        <p class="little-text">So insisted received is occasion advanced honoured. Among ready to which up. Attacks smiling and may out assured moments man nothing outward.</p>
+                                    <li>
+                                        <h3 class="line-title">Softwar Engineer I - BroadPeak Technologies</h3>
+                                        <span>
+                                            November 2020 - April 2021
+                                            <br>
+                                            Location: Islamabad, Pakistan
+                                        </span>
+                                        <p class="little-text">
+                                            <p>As a Software Engineer I at BroadPeak Technologies, my primary responsibilities were to analyze and refactor the existing codebase to improve its quality and maintainability. I worked closely with my team to identify areas of the codebase that required improvement, such as increasing performance, reducing technical debt, and improving code organization.</p>
+                                            <br>
+                                            <p>During my time at BroadPeak Technologies, I was able to make significant improvements to the codebase, which helped to ensure that the software met the highest standards of quality. However, unfortunately, I had to leave the company due to the closing of its operations in Pakistan.</p>
+                                            <br>
+                                            <p>Despite the short period of time that I worked at BroadPeak Technologies, I gained valuable experience in code analysis and refactoring, which I can apply to future projects. I am committed to continuous learning and self-improvement, and I am always looking for new opportunities to enhance my skills and contribute to the success of my team.As a Software Engineer I at BroadPeak Technologies, my primary responsibilities were to analyze and refactor the existing codebase to improve its quality and maintainability. I worked closely with my team to identify areas of the codebase that required improvement, such as increasing performance, reducing technical debt, and improving code organization. During my time at BroadPeak Technologies, I was able to make significant improvements to the codebase, which helped to ensure that the software met the highest standards of quality. However, unfortunately, I had to leave the company due to the closing of its operations in Pakistan. Despite the short period of time that I worked at BroadPeak Technologies, I gained valuable experience in code analysis and refactoring, which I can apply to future projects. I am committed to continuous learning and self-improvement, and I am always looking for new opportunities to enhance my skills and contribute to the success of my team.</p>
+                                            <br>
+                                            <p><b>Skills:</b> Windows Presentation Foundation (WPF) · Agile Methodologies · C# Programming · Visual Basic .NET (VB.NET) · WinForms · MS Sql Server.</p>
+                                        </p>
                                     </li>
-                                   <!-- a work -->
-                                    <li><h3 class="line-title">Junior Designer - Creative Shake</h3>
-                                        <span>2005 - 2008</span>
-                                        <p class="little-text">Excited him now natural saw passage offices you minuter. At by asked being court hopes. Farther so friends am to detract.</p>
+                                    <li>
+                                        <h3 class="line-title">Associate Software Engineer - ESSCom Solutions Pvt. Ltd.</h3>
+                                        <span>
+                                            August 2019 - October 2021
+                                            <br>
+                                            Location: Islamabad, Pakistan
+                                        </span>
+                                        <p class="little-text">
+                                            <p>As an Associate Software Engineer at ESSCom Solutions, my primary responsibilities included enhancing and developing features in existing systems, as well as gathering requirements from clients for new projects. I have worked on a vast range of products, including Time Attendance System (which included biometrics), Access Control System, Queue Management System (aka Token System), Enterprise Management System, and various other short-term projects from scratch.</p>
+                                            <br>
+                                            <p>As a major team player and multi-tasker, I have contributed significantly to the success of our products. I have also played a vital role in various system upgrades that have been beneficial for the company. Additionally, I have worked directly with clients on technical aspects, gathering requirements, and providing support to ensure a fluent experience with our solutions.</p>
+                                            <br>
+                                            <p>During my time at ESSCom Solutions, I have demonstrated expertise in a variety of technologies, including C#, VB.NET, ASP.NET MVC, ASP.NET Web Forms, Win Forms, WPF, MS SQL Server, Crystal Reports, and JavaScript. My skills have enabled me to deliver custom software solutions tailored to our clients' specific needs.</p>
+                                            <br>
+                                            <p>As a self-motivated individual, I am always eager to learn new technologies and continuously improve my skills. I am also committed to collaborating with team members and clients to deliver solutions that exceed expectations and drive business success.As an Associate Software Engineer at ESSCom Solutions, my primary responsibilities included enhancing and developing features in existing systems, as well as gathering requirements from clients for new projects. I have worked on a vast range of products, including Time Attendance System (which included biometrics), Access Control System, Queue Management System (aka Token System), Enterprise Management System, and various other short-term projects from scratch. As a major team player and multi-tasker, I have contributed significantly to the success of our products. I have also played a vital role in various system upgrades that have been beneficial for the company. Additionally, I have worked directly with clients on technical aspects, gathering requirements, and providing support to ensure a fluent experience with our solutions. During my time at ESSCom Solutions, I have demonstrated expertise in a variety of technologies, including C#, VB.NET, ASP.NET MVC, ASP.NET Web Forms, Win Forms, WPF, MS SQL Server, Crystal Reports, and JavaScript. My skills have enabled me to deliver custom software solutions tailored to our clients' specific needs. As a self-motivated individual, I am always eager to learn new technologies and continuously improve my skills. I am also committed to collaborating with team members and clients to deliver solutions that exceed expectations and drive business success.</p>
+                                            <br>
+                                            <p><b>Skills:</b> Windows Services · Socket Programming · ASP .NET WEB API · TFVC · C# Programming · .NET Framework · JavaScript · WinForms · Web Forms · .NET Core</p>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h3 class="line-title">Junior Software Engineer - ESSCom Solutions Pvt. Ltd.</h3>
+                                        <span>
+                                            July 2018 - August 2019
+                                            <br>
+                                            Location: Islamabad, Pakistan
+                                        </span>
+                                        <p class="little-text">
+                                            <p>As a Junior Software Engineer at ESSCom Solutions, I was responsible for assisting in enhancing and developing features in existing systems, as well as supporting the gathering of requirements from clients for new projects. During my tenure, I worked on a variety of projects, including the Time Attendance System (which included biometrics), Access Control System, Queue Management System (aka Token System), Enterprise Management System, and various other short-term projects from scratch.</p>
+                                            <br>
+                                            <p>As an active team member and multi-tasker, I contributed to the success of our products by providing support in various system upgrades that were beneficial for the company. I also worked alongside senior engineers to learn new technologies and gain expertise in C#, VB.NET, ASP.NET MVC, ASP.NET Web Forms, Win Forms, WPF, MS SQL Server, Crystal Reports, and JavaScript.</p>
+                                            <br>
+                                            <p>I have always been enthusiastic about learning new technologies and applying them to solve business challenges. My dedication to working with team members and clients to deliver solutions that exceed expectations and drive business success has been a consistent theme throughout my career.As a Junior Software Engineer at ESSCom Solutions, I was responsible for assisting in enhancing and developing features in existing systems, as well as supporting the gathering of requirements from clients for new projects. During my tenure, I worked on a variety of projects, including the Time Attendance System (which included biometrics), Access Control System, Queue Management System (aka Token System), Enterprise Management System, and various other short-term projects from scratch. As an active team member and multi-tasker, I contributed to the success of our products by providing support in various system upgrades that were beneficial for the company. I also worked alongside senior engineers to learn new technologies and gain expertise in C#, VB.NET, ASP.NET MVC, ASP.NET Web Forms, Win Forms, WPF, MS SQL Server, Crystal Reports, and JavaScript. I have always been enthusiastic about learning new technologies and applying them to solve business challenges. My dedication to working with team members and clients to deliver solutions that exceed expectations and drive business success has been a consistent theme throughout my career.</p>
+                                            <p><b>Skills:</b> C# Programming · .NET Framework · WinForms · MS Sql Server</p>
+                                        </p>
                                     </li>
                                 </ul> 
                             </div>  
-                            <!-- Education History -->
-                            <div class="education-history col-md-12 padding_15 padbot_30">
-                                <ul class="timeline col-md-12 top_30">
-                                    <li><i class="fa fa-graduation-cap" aria-hidden="true"></i><h2 class="timeline-title">Education History</h2></li>
-                                    <!-- a work -->
-                                    <li><h3 class="line-title">Abc University of Los Angeles</h3>
-                                        <span>2004 - 2009</span>
-                                        <p class="little-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
-                                    </li>
-                                   <!-- a work -->
-                                    <li><h3 class="line-title">Drawing Course</h3>
-                                        <span>2003 - 2004</span>
-                                        <p class="little-text">So insisted received is occasion advanced honoured. Among ready to which up. Attacks smiling and may out assured moments man nothing outward.</p>
-                                    </li>
-                                   <!-- a work -->
-                                    <li><h3 class="line-title">Abc High School</h3>
-                                        <span>2000 - 2003</span>
-                                        <p class="little-text">Excited him now natural saw passage offices you minuter. At by asked being court hopes. Farther so friends am to detract.</p>
-                                    </li>
-                                </ul> 
-                            </div>
+                           
                         </div>
                     </section>
                 </div>
